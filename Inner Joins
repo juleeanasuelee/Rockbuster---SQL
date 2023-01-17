@@ -1,3 +1,6 @@
+A SQL query with multiple inner joins 
+Used to find top 5 customers with the highest total amount paid 
+
 SELECT A.customer_id,
 A.first_name,
 A.last_name,
