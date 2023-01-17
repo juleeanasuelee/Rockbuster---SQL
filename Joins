@@ -1,3 +1,6 @@
+A SQL query with multiple joins
+Used to find top 5 categories of highest revenue
+
 SELECT category.name, 
 SUM (payment.amount) AS revenue 
 FROM category 
